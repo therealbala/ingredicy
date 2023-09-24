@@ -1,3 +1,4 @@
 # 🍗proj1 🥝🍇
 
-CMD Env :: pip install -r rqmts.txt  
+To install all required libraries 
+CMD (Env) :: pip install -r rqmts.txt  
