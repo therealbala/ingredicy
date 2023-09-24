@@ -1,0 +1,34 @@
+/** newsletter **/
+.newsletter{ 
+    content: "abcd";  
+}
+.divnewsletter{
+    padding: 20px; 
+    background-color: rgb(25, 22, 22); 
+    color: whitesmoke;  
+}
+.divnewsletter form label{ 
+    text-transform: uppercase; 
+    font-size: 40px;
+    font-weight: bold; 
+}
+.divnewsletter form input{
+    border-radius: 6px; 
+    width: 80%; 
+    height: 40px; 
+    cursor:alias;  
+} 
+.divnewsletter form input::placeholder{ 
+    padding: 6px; 
+}
+.divnewsletter form input:focus{  
+    box-shadow: 2px 4px #fcff9c;
+}
+.divnewsletter span::after{
+    content: "\2728"; 
+}
+.divnewsletter form{ 
+    display:flex; 
+    gap: 10px; 
+    margin: 0px; 
+}  

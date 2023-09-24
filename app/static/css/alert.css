@@ -1,0 +1,34 @@
+/** alert **/ 
+.divalert{
+    padding: 10px; 
+    opacity: 0.7; 
+}
+.alert{
+    background-color: #4265f2; 
+    color: white;  
+    padding: 4px; 
+    border-radius: 2px; 
+    display: block; 
+    margin: 2px; 
+    font-weight: 700; 
+    text-shadow: 1px 1px #1e2022;   
+    box-shadow: 0px 0.4px  #1e2022; 
+}
+.alert::before{ 
+    padding-right: 4px; 
+    content: "\2686";  
+} 
+.alert.warning::before{  
+    content: "\26A0";  
+    color: rgb(229, 226, 132);  
+} 
+.alert.info::before{ 
+    content: "\2690";  
+    color: cyan;  
+}  
+.alert.warning{ 
+    background-color: rgb(237, 202, 49);
+}
+.alert.info{
+    background-color: #54e0c7;
+}

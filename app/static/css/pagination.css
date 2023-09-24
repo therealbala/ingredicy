@@ -1,0 +1,25 @@
+/**
+  Pagination
+               **/ 
+   
+.pagination{ 
+    padding:10px;  
+}
+.pgbtn{ 
+    background-color: #7655eb;
+    padding: 0px 10px;
+    margin:2px;
+    border-radius: 4px;
+    text-decoration: wavy;
+    text-transform: capitalize; 
+    color: white;  
+    border: none;
+    font-size: 24px; 
+    overflow: hidden;
+} 
+.pgbtn.active{ 
+    background-color: #82eb55;
+}
+.pgbtn:is(.pre,.next){ 
+    background-color: #559beb; 
+} 

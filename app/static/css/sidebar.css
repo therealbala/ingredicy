@@ -1,0 +1,39 @@
+
+/****** Sidebar ******/  
+aside.sidebar{ 
+    max-width: 400px; 
+    width: 100%; 
+    margin: 2px; 
+    @media (max-width:800px) { 
+        margin-top: 40px; 
+    }
+}
+aside.sidebar div.sideele { 
+    padding: 10px; 
+    border-radius: 10px; 
+    display: block; 
+    background-color: #4646431a;  
+}
+:is(aside.sidebar,main.main) h3{
+        margin-top: 0px; 
+        text-transform: capitalize; 
+}  
+:is(aside.sidebar,main.main) h3::first-letter{
+        background-color:rgb(224, 84, 84); 
+        text-decoration: overline;
+        color: whitesmoke; 
+        padding: 4px; 
+        border-radius: 4px;
+}
+
+.sideele form input[type='text']{
+    padding: 10px; 
+    border: none; 
+    width: 75%; 
+    box-shadow: 2px 2px #000000;
+}  
+.sideele form button[type='search']{
+    padding: 10px;  
+    border: none; 
+    border-radius: 10px;   
+} 

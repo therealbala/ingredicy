@@ -1,0 +1,51 @@
+/** navigtion **/  
+
+.navmain{
+    overflow: hidden; 
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+    z-index: 3; 
+    
+} 
+.navmain .sname2 {
+    color: #4f4f4f;
+    background-color: #b2c2bf;
+    border-radius: 20px 25px 22px 35px;
+    text-shadow: none;
+}  
+.navmain .formtitle { 
+    position: relative;
+    background-color: rgb(45, 45, 39);
+    border-end-end-radius: 50px 20px;
+    border-end-start-radius: 50px 20px;
+    display: flex; 
+    margin-bottom: 2px;   
+}
+.navmain .formtitle h1 {
+    color: #eaece5;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-shadow: 3px 1px #000000;
+} 
+.navmain ul{ 
+    list-style: none; 
+    display:flex; 
+    column-gap: 2px; 
+}    
+.navmain .btn{
+    color: #29a7d5; 
+    background-color: #24282a; 
+    font-weight: bold; 
+    font-size: 18px; 
+    border-radius: 8px; 
+    padding: 2px; 
+}  
+.navmain .btn:hover{ 
+    background-color: #29a7d5; 
+    color: black; 
+} 
+

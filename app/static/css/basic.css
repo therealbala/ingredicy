@@ -1,0 +1,20 @@
+@import url('https://unpkg.com/normalize.css@8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+*, *::before, *::after,*:focus { 
+    box-sizing: border-box;
+    cursor: default; 
+    outline: none; 
+} 
+::-moz-selection {
+    color: inherit;
+    background-color: transparent; 
+} 
+::selection {
+    color: inherit;
+    background-color: transparent; 
+} 
+body {
+    background-color: #d1d7dc;
+    font-family: "Fira Sans", sans-serif; 
+}  
