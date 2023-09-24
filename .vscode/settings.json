@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        ".gitignore": true,
+        "*.bat": true,
+        "LICENSE":true, 
+        "README.md":true, 
+    },
+    "explorer.excludeGitIgnore": false
+}   
